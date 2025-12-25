@@ -7,7 +7,7 @@ export default function LeetCode() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch("https://sharad-portfolio-backend.onrender.com/")
+    fetch("https://sharad-portfolio-backend.onrender.com/leetcode")
       .then((res) => res.json())
       .then((res) => setData(res))
       .catch((err) => console.error(err));
