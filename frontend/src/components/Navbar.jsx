@@ -29,7 +29,7 @@ export default function Navbar() {
           </Link>
 
           <a
-            href={`${window.location.origin}/Sharad_Yadav_Resume.pdf`}
+            href={`${window.location.origin}/Sharad_Resume.pdf`}
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-green-400 transition font-medium"
